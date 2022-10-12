@@ -432,7 +432,7 @@ function Library:create(options)
 	end
 
 	options = self:set_defaults({
-		Name = "Doomed Priv Anim",
+		Name = "/doomed",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
 		Link = "discord.gg/doomed"
